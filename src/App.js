@@ -7,7 +7,7 @@ import awsExports from "./aws-exports";
 import './App.css';
 import {AmplifyAuthenticator} from "@aws-amplify/ui-react";
 import {AuthState, onAuthUIStateChange} from "@aws-amplify/ui-components";
-import AddItem from "./components/Add";
+import AddItem from "../Components/Add";
 
 Amplify.configure(awsExports);
 
