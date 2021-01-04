@@ -19,7 +19,7 @@ function App() {
 
   React.useEffect(() => {
     return onAuthUIStateChange((nextAuthState, authData) =>{
-      setAuthState((nextAuthState);
+      setAuthState(nextAuthState);
       setUser(authData);
     });
   }, []);
